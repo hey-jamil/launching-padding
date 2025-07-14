@@ -73,3 +73,27 @@ body {
     border-radius: 48px;
     border: none;
 }
+
+.stats {
+  text-align: center;
+  background: #EDEEFF;
+  padding: 60px 20px;
+  border-radius: 16px;
+  margin: 60px auto;
+  max-width: 1000px;
+}
+.stats h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.metrics {
+  display: flex;
+  justify-content: space-around;
+}
+.metrics div h3 {
+  font-size: 48px;
+  color: #5A4FFF;
+}
+.metrics div p {
+  color: gray;
+}
