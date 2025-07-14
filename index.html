@@ -93,6 +93,24 @@
     </div>
     
   </section>
+  <section class="contact-form">
+    
+    <div class="contact-div">
+        <h2>Let’s Get in <br>Touch</h2>
+        <form action="/send" method="POST">
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email" placeholder="you@example.com" required />
+
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Jane Doe" required />
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Type here..." required></textarea>
+
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+    </div>
+  </section>
 </body>
 
 </html>
