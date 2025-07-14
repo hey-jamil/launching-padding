@@ -40,8 +40,8 @@ body {
   padding: 20px;
 }
 .brand {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 100px;
+  font-weight: 900;
   color: #5A4FFF;
 }
 .intro {
@@ -184,9 +184,10 @@ body {
   text-align: center;
   padding: 60px 20px;
 }
+
 .site-footer .brand {
   color: #5A4FFF;
-  font-size: 32px;
+  
 }
 .site-footer p {
   color: #888;
